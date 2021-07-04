@@ -43,19 +43,23 @@
     padding-bottom: 24px;
 }
 .full{
-    margin:0 auto;
-    
+
     background-color: #415165;
     color: #FFFFFF;
     border-bottom: 1px solid;
+    /* text-align:center; */
+
 }
 
 .full h2{
     text-align:center;
+    width: 500px; 
+    margin-left: auto;
+    margin-right: auto;
     font-size: 32px;
     line-height: 45px;
     padding-top: 24px;
-    margin: 35px 148px 37px 148px;
+    margin-bottom: 37px;
     border-bottom: 1px solid #FFFFFF;
     
 }
@@ -64,9 +68,11 @@
 }
 
 .skillItem{
-    margin: 0px 630px;
+    margin-left: auto;
+    margin-right: auto; 
     text-align:center;
     padding-bottom: 36px;
+    width: 226px;
 }
 
 .skillItem li{
@@ -75,7 +81,6 @@
     line-height: 36px;
     padding-left: 24px;
     border-left: 1px solid #96A9C4;
-    width: 226px;
 }
 
 .worklaout{
