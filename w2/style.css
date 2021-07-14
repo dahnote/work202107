@@ -37,3 +37,40 @@
     display: flex;
     justify-content: space-between
 }
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    margin-top: 56px;
+    margin-bottom: 40px;
+    font-size: 64px;
+    line-height: 84px;
+}
+
+.about ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.aboutbottom{
+    border-bottom: 1px solid black;
+    padding-bottom: 26px;
+    margin-bottom: 26px;
+}
+.about ul li{
+    font-size: 24px;
+    line-height: 42px;
+
+}
+.school{
+    text-align: center;
+    font-style: italic;
+}
+.disc{
+    list-style-type: disc;
+    margin-bottom: 56px;
+}
