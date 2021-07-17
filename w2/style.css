@@ -97,7 +97,7 @@ hr{
     margin: 12px 0 32px 0;
     font-size: 24px;
 }
-.brand_context{
+.LL30F20{
     line-height: 30px;
     font-size: 20px;
 }
@@ -107,4 +107,31 @@ hr{
     margin-top: 40px;
     margin-bottom: 160px;
     justify-content: space-between;
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 96px;
+}
+.work h2{
+    margin-bottom: 16px;
+}
+
+
+.work ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1200px;
+
+}
+
+.workp{
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 16px;
+    font-size: 20px;
+    line-height: 42px;
 }
