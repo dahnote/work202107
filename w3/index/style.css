@@ -1,4 +1,12 @@
 
+.titletext{
+    font-size: 48px;
+    line-height: 72px;
+    color: #AA0601;
+    font-weight:bold;
+
+}
+
 .header{
     height: 108px;
     background-color: #AA0601;
@@ -39,6 +47,43 @@
 .banner h2{
     font-size: 64px;
     line-height: 96px;
-   
-
+    font-weight:bold;
+}
+.main{
+    height: 481px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #AA06010D;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.mainlist{
+    width: 1110px;
+    display: flex;
+    height: 255px;
+    justify-content: space-between;
+}
+.mainlist li{
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48.33px;
+}
+.mainlist .icon{
+    width: 83.83px;
+    height: 83.83px;
+}
+.mainlist div{
+    font-size: 24px;
+    line-height: 36px;
+    color:#650300;
+    font-weight:bold;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.mainlist p{
+    font-size: 16px;
+    line-height: 24px;
 }
