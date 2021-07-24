@@ -121,17 +121,18 @@
     background-image: url('../img/bg.png');
     background-size: cover;
     padding-top: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 .joint .titletext{
     color:#FFFFFF;
     margin-bottom: 40px;
+    text-align: center;
 }
 .joint ul{
     display: flex;
-    
+    /* display: flex; */
+    /* flex-direction: column; */
+    max-width: 1110px;
+    margin: 0 auto;
 }
 .joint ul >:nth-child(odd){
     width: 540px;
