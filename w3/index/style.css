@@ -311,3 +311,36 @@
 .footerbootomleft{
     width: 936px;
 }
+
+@media (max-width: 767px) {
+    .header{
+        height: 100%;
+        background-color: #AA0601;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:flex-start; 
+    }
+    .logo{
+        width: 48px;
+        height: 29.14px;
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .headerlink{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin:0px;
+        margin-top:10.86px;
+        flex-wrap: wrap;
+        text-align: center;
+        border: 1px solid white;
+    }
+    .headerlink li{
+        padding: 8px;
+        width: 50%;
+        border: 1px solid white;
+        height: 50px;
+    }
+}
